@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Touch Screen-School of Nursing: UNC Directory</title>
+ <link type="text/css" rel="stylesheet" href="style.css" />  
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fadeslideshow.js"></script>
+
+
+<script type="text/javascript">
+idleTime=0;
+mouseTrueMove=false;
+$(document).ready(function(){
+var idleInterval =  setInterval ("timerIncrement()", 1000);
+
+$(this).mousemove(function(e){
+idleTime = 0;
+});
+});
+function timerIncrement(){
+idleTime = idleTime +1;
+if (idleTime>60){
+nextpage();
+}
+}
+function nextpage(){
+document.location.href="index.html";
+}
+</script>
+</head>
+
+<body  id="touch-uncdirectory" style="background: #e7e7e7 url(img/wallpapers.jpg) no-repeat; background-attachment: fixed; width:1920px;">
+  
+<div id="touch-wrapper">
+
+<div id="touch-header">
+<div id="touch-header-left">&nbsp;</div>
+<div id="touch-header-right">&nbsp;</div>
+</div>
+
+<div id="touch-content">	
+<div id="touch-leftside">
+<div id="touch-leftside-homepage"> 
+
+<div class="content">
+<div class="view-header">
+<div id="touch-title">UNC Directory</div>
+</div>
+<iframe src="https://itsapps.unc.edu/dir/dirSearch/view.htm" width="1336" height="1000"></iframe>
+</div>
+
+</div>
+</div>
+			
+<div id="touch-rightside">
+<div class="content">
+<div id="touch-rightside-inner2"><img alt="touchscreen logo" src="img/logo.jpg" /></div>
+</div>
+
+
+<div class="content">
+<div id="touch-rightside-inner">
+<ul class="touch-nav">
+<li class="nav-news"><a href="index.html">Homepage</a></li>
+<li class="nav-news"><a href="information.html">Information</a></li>
+<li class="nav-news"><a href="events.html">Events</a></li>
+<li class="nav-directory"><a href="video.html">Video</a></li>
+</ul>
+</div>
+  </div>  
+
+
+</div></div>
+</div>
+
+</body>
+</html>

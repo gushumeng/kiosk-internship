@@ -1,0 +1,323 @@
+/* -- touch screen -- */
+
+#touch-wrapper body {
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Trebuchet MS, sans-serif;
+}
+#touch-wrapper {
+	margin:0 auto;
+	text-align:left;
+}
+#touch-header { 
+display: none;
+}
+#touch-header-left  {
+	height: 80px;
+	background: url(img/silslogo.png) no-repeat;
+	float: left;
+    margin: 10px 0px 0px 68px;
+	width: 420px;
+	display:inline;
+	}
+#touch-header-right {
+	float: right;
+	height: 80px;
+	background: url(img/touch-screen.png) no-repeat;
+	padding: 0px;
+	margin: 18px 38px 0px 0px;
+	width: 380px;
+	display:inline;
+	}
+#touch-content-header {
+clear:both;
+}
+
+#touch-content { 
+}
+
+#touch-title {
+	color: #ffa000;
+	font-size:160%;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, Trebuchet MS, sans-serif;
+	margin:0px;
+	display: block;
+	clear:both;
+	padding: 1em 0em .6em 0em;
+	border-bottom: 1px solid #747474;
+}
+
+#touch-content img {
+	padding: 0em 2em 1em 0em;
+}
+
+#touch-leftside {
+	float:left;
+	width: 73%;
+	display: inline;
+	margin: 35px 0px 55px 65px;
+	background: url(img/transp_left.png) repeat;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;	
+}
+#touch-leftside-inner {
+	color: #fff;
+	padding: 30px 45px 45px 45px;
+}
+#touch-leftside-index-homepage {
+color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+#touch-leftside-homepage {
+color: #fff;
+	padding: 0px 0px 0px 32px;
+}
+
+#touch-rightside {
+	float: right;
+	width:16%;
+	display: inline;
+	margin: 24px 65px 30px 10px;
+}
+#touch-rightside-inner {
+	color: #56A0D3;
+	padding: 1.5em 1.3em 1.5em 1.3em;
+	line-height: 2em;
+	background: url(img/transp.png) repeat;
+	-moz-border-radius: 1em;
+	
+	-webkit-border-radius: 1em;
+	border-radius: 1em;	
+}
+#touch-rightside-inner2 {
+	color: #fff;
+	padding: 1em 0em 1em 1em;
+	line-height: 1em;
+	margin-bottom: 15px;
+	
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+}
+
+
+#touch-wrapper h1 {
+	font-size:330%;
+	font-weight:normal;
+	}
+#touch-wrapper h2 {
+	margin: 0;
+	font-size:300%;
+	color:#fff;
+	font-weight:normal;
+	padding:.2em 0em .2em .2em;
+	border-top:2px solid #66798c;
+	border-bottom:2px solid #66798c;
+}
+
+
+
+#touch-rightside-inner ul {
+margin: 0px;
+padding: 0px;
+padding-left: .6em;
+list-style-type: none;
+}
+
+#touch-rightside-inner .touch-nav a 
+{
+color: #ffffff;
+display: block;
+font-size: 1.7em;
+text-decoration: none;
+cursor: default;
+padding: 1.2em 0em 1em 1.5em;
+font-family: Verdana, Arial, Trebuchet MS, sans-serif;
+}
+
+ #touch-wrapper ul.touch-nav li a{
+ display: block;
+ background: url(img/nav-empty.png) no-repeat;
+ margin: 12px 0px 12px 0px;
+}
+/* information*/
+
+#touch-information .view .view-content .views-row .views-field-title .field-content
+{
+
+padding: 0px 0px 0px 60px;
+margin: 0px;
+color: #FFF;
+font-weight: bold;
+font-size: 1em;
+
+}
+
+#touch-information .view .view-content .views-row 
+{
+
+padding:5px 0px 0px 7px;
+border-bottom: 1px dotted #6699CC;
+
+margin:0px;
+margin-top:8px;
+}
+
+#touch-information .view .view-content .views-row .views-field-title .field-content a
+{
+color: #ffffff;
+display: block;
+font-size: 1.7em;
+text-decoration: none;
+
+padding: 1.2em 0em 1em 1.5em;
+font-family: Verdana, Arial, Trebuchet MS, sans-serif;
+}
+
+#touch-information .view .view-content .views-row .views-field-title .field-content a:hover
+{
+color: #56A0D3;
+}
+
+/*nursing_directory*/
+#touch-directory #directory-left
+{
+float: left;
+width: 294px;
+display:inline;
+clear:both;
+}
+
+#touch-directory #directory-middle
+{
+float: left;
+padding-left: 36px;
+width: 294px;
+display:inline;
+clear:none;
+}
+
+#touch-directory #directory-right
+{
+float: left;
+padding-left: 36px;
+width: 294px;
+display:inline;
+}
+#touch-directory  #directory-far-right {
+float: left;
+padding-left: 36px;
+width: 294px;
+display:inline;
+}
+#touch-directory hr
+{
+padding: 0px;
+margin: 0px;
+width: 280px;
+border-bottom: 0px #33597f dotted;
+}
+#touch-directory   p 
+{
+margin: 4px 0px 4px 0px;
+padding: 4px 0px 4px 0px;
+font-size: 1.3em;
+font-family: "calibri";
+}
+/*map--no css*/
+
+/*uncdirectory--no css*/
+
+/*events*/
+#touch-events .view .view-content .views-row 
+{
+background: url(img/calendar.png) no-repeat;
+padding:14px 0px 0px 0px;
+border-bottom: 1px dotted #6699CC;
+padding-bottom: 2em;
+margin:0px;
+margin-top:8px;
+}
+
+#touch-events .view .view-content .views-row-information
+{
+background: url(img/calendar.png) no-repeat;
+padding:50px 0px 0px 70px;
+border-bottom: 1px dotted #6699CC;
+padding-bottom: 2em;
+margin:0px;
+margin-top:8px;
+}
+
+#touch-events .view   .view-content .views-row  .views-field-field-start-time-value .field-content
+{
+/* month */
+text-align: center;
+padding: 0px 0px 0px 0px;
+color: #fff;
+font-size: 1.3em;
+font-weight: bold;
+float:left;
+clear:both;
+width: 80px;
+height: 18px;
+font-family: "calibri";
+}
+	
+#touch-events .view .view-content .views-row  .views-field-field-start-time-value-1  .field-content
+{
+/* the date */
+width: 80px;
+height: 58px;
+padding-top: 0px;
+float:left;
+color: #6699cc;
+font-weight: bold;
+font-size: 2.3em;
+clear: both;
+display:inline;
+text-align:center;
+font-family: "calibri";
+}
+
+#touch-events .view .view-content .views-row .views-field-title .field-content
+{
+/* title */
+padding: 0px 0px 0px 60px;
+margin: 0px;
+color: #FFF;
+font-weight: bold;
+font-size: 1.4em;
+letter-spacing: .1em;
+font-family: "calibri";
+}
+
+#touch-events .view .view-content .views-row .views-field-field-location-value .field-content
+{
+/* teaser */
+line-height: 1.5em;
+padding: 0px 0px 0px 60px;
+color: #9e9e9e;
+font-size: 1.2em;
+font-weight: bold;
+font-family: "calibri";
+}
+
+#touch-events .view .view-content .views-row  .views-field-field-start-time-value-2  .field-content
+{
+/* start end time */
+line-height: 1.5em;
+padding: 0px 0px 0px 60px;
+color: #9e9e9e;
+font-size: 1.2em;
+font-weight: bold;
+font-family: "calibri";
+}
+
+/*video--no css*/
+
+
+
